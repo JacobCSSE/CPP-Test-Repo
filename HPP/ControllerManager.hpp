@@ -1,6 +1,6 @@
 #pragma once
 
-#include "GorillaLocomotion/Player.hpp"
+#include "Beatsaber/Hands.hpp"
 #include "GlobalNamespace/VRRig.hpp"
 #include "GlobalNamespace/VRMap.hpp"
 
@@ -26,7 +26,7 @@ class ControllerManager{
 
     public:
         ControllerManager();
-        void AddPlayer(GorillaLocomotion::Player* player);
+        void AddPlayer(Beatsaberhands::Player* player);
 
         void AddVRRig(GlobalNamespace::VRRig* rig);
         void RemoveVRRig(GlobalNamespace::VRRig* rig);
